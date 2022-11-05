@@ -1,0 +1,26 @@
+import { NgModule } from '@angular/core';
+import { BrowserModule } from '@angular/platform-browser';
+import { FormsModule } from '@angular/forms';
+
+import { AppComponent } from './app.component';
+import { HelloComponent } from './hello.component';
+import { HomePageComponent } from './layouts/home-page/home-page.component';
+import { ReviewStarsComponent } from './layouts/review-stars/review-stars.component';
+import { SubmitStarComponent } from './layouts/submit-star/submit-star.component';
+import { UserManagementComponent } from './layouts/user-management/user-management.component';
+import { AllStarsComponent } from './layouts/all-stars/all-stars.component';
+
+@NgModule({
+  imports: [BrowserModule, FormsModule],
+  declarations: [
+    AppComponent,
+    HelloComponent,
+    HomePageComponent,
+    ReviewStarsComponent,
+    SubmitStarComponent,
+    UserManagementComponent,
+    AllStarsComponent,
+  ],
+  bootstrap: [AppComponent],
+})
+export class AppModule {}
