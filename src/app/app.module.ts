@@ -9,9 +9,12 @@ import { ReviewStarsComponent } from './layouts/review-stars/review-stars.compon
 import { SubmitStarComponent } from './layouts/submit-star/submit-star.component';
 import { UserManagementComponent } from './layouts/user-management/user-management.component';
 import { AllStarsComponent } from './layouts/all-stars/all-stars.component';
+import { MenuComponent } from './layouts/shared/menu/menu.component';
+import { FooterComponent } from './layouts/shared/footer/footer.component';
+import { RouterModule } from '@angular/router';
 
 @NgModule({
-  imports: [BrowserModule, FormsModule],
+  imports: [BrowserModule, FormsModule, RouterModule],
   declarations: [
     AppComponent,
     HelloComponent,
@@ -20,6 +23,8 @@ import { AllStarsComponent } from './layouts/all-stars/all-stars.component';
     SubmitStarComponent,
     UserManagementComponent,
     AllStarsComponent,
+    MenuComponent,
+    FooterComponent,
   ],
   bootstrap: [AppComponent],
 })
