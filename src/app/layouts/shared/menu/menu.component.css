@@ -4,7 +4,7 @@ body {
 }
 .bg-star {
   background-color: #031461;
-  background-image: url('././assets/img.jpeg');
+  background-image: url('https://raw.githubusercontent.com/SwapnaliBirmole/StarManagementUI/main/src/assets/img.jpeg');
 }
 .bg-orange {
   background-color: #f88d2a;
@@ -232,7 +232,7 @@ td.show-hide a.btn:focus {
 }
 
 .star-bg {
-  background-image: url('./assets/img.jpeg');
+  /*background-image: url('https://raw.githubusercontent.com/SwapnaliBirmole/StarManagementUI/main/src/assets/img.jpeg');*/
   min-height: 90vh;
   max-width: 100%;
   background-repeat: no-repeat;

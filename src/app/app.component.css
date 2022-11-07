@@ -409,3 +409,29 @@ td.show-hide a.btn:focus {
     width: 30%;
   }
 }
+
+/* Add application styles & imports to this file! */
+.col-image {
+  width: 100px;
+}
+
+.col-action {
+  width: 100px;
+}
+.col-action .btn {
+  min-width: 84px;
+  text-align: left;
+}
+
+.col-name {
+  width: 200px;
+}
+.col-corpid {
+  width: 155px;
+}
+.col-email {
+  width: 50px;
+}
+.col-role {
+  width: 250px;
+}
