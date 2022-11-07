@@ -122,7 +122,7 @@ table.submit-star td {
 td.show-hide a:not(.collapsed) {
   font-weight: bold;
   background-color: #f2f2f2;
-  background-image: url('assets/img/icon-contract.png');
+  /* background-image: url('assets/img/icon-contract.png');*/
   background-repeat: no-repeat;
   height: 20px;
   width: 20px;
@@ -132,7 +132,7 @@ td.show-hide a.collapsed {
   height: 20px;
   font-weight: bold;
   background-color: #f2f2f2;
-  background-image: url('assets/img/icon-expand.png');
+  /* background-image: url('assets/img/icon-expand.png');*/
   background-repeat: no-repeat;
 }
 td.show-hide a.btn:focus {
@@ -232,7 +232,7 @@ td.show-hide a.btn:focus {
 }
 
 .star-bg {
-  background-image: url('./assets/img.jpeg');
+  /* background-image: url('./assets/img.jpeg'); */
   min-height: 90vh;
   max-width: 100%;
   background-repeat: no-repeat;
