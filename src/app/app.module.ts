@@ -11,10 +11,11 @@ import { UserManagementComponent } from './layouts/user-management/user-manageme
 import { AllStarsComponent } from './layouts/all-stars/all-stars.component';
 import { MenuComponent } from './layouts/shared/menu/menu.component';
 import { FooterComponent } from './layouts/shared/footer/footer.component';
-import { RouterModule } from '@angular/router';
+//import { RouterModule } from '@angular/router';
+import { routing } from './app-routing.module';
 
 @NgModule({
-  imports: [BrowserModule, FormsModule, RouterModule],
+  imports: [BrowserModule, FormsModule, routing],
   declarations: [
     AppComponent,
     HelloComponent,
